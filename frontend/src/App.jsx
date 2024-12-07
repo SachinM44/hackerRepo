@@ -7,7 +7,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/onboard" element={<OnboardingScreen />} />
+        <Route path="/" element={<OnboardingScreen />} />
         <Route path="/onboard2" element={<OnboardingScreen2/>} />
         <Route path="/job-search" element={<JobSearchScreen />} />
       </Routes>
